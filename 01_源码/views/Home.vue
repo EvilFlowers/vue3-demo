@@ -6,11 +6,13 @@
 </template>
 
 <script lang="ts">
+// defineComponent目的是定义一个组件，内部可以传入一个配置对象
 import { defineComponent } from "vue";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 
 export default defineComponent({
   name: "Home",
+  // 注册组件
   components: {
     HelloWorld
   }
